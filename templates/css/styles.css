@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorPrimary: #E2B9FF;
+    --colorWhite: #FFF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background-color: var(--colorPrimary);
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 100px;
+    max-width: 200px;
+}
+.header-logo{
+    width: 50px;
+    height: 50px;
+}
+.header-logo > img{
+    width: 100%;
+    height: 100%;
+}
+.header-profile-img{
+    width: 45px;
+    height: 45px;
+}
+.header-profile-img > img{
+    width: 100%;
+    height: 100%;
+}
