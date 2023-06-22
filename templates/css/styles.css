@@ -137,19 +137,3 @@ header{
     font-size: 24px;
     text-align: center;
 }
-
-footer{
-    width: 100%;
-    background-color: var(--colorPrimary);
-    padding: 30px;
-    text-align: center;
-}
-footer u{
-    text-decoration: underline;
-}
-footer h1{
-    font-size: 36px;
-}
-footer p{
-    font-size: 20px;
-}
