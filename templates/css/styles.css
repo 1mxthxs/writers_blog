@@ -5,6 +5,7 @@
 }
 :root{
     --colorPrimary: #E2B9FF;
+    --colorSecondary: #7D2089;
     --colorWhite: #FFF;
 }
 header{
@@ -31,6 +32,10 @@ header{
     width: 100%;
     height: 100%;
 }
+.header-text{
+    color: var(--colorSecondary);
+}
+
 .header-profile-img{
     width: 45px;
     height: 45px;
