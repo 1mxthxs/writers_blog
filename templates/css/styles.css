@@ -11,6 +11,7 @@
     --colorHover: #7d20898d;
     --colorHoverWhite:#f0f0f0;
     --colorWhite: #FFF;
+    --colorWhiteLow: #F1F1F0;
 }
 header{
     display: flex;
@@ -138,6 +139,95 @@ header{
     text-align: center;
 }
 
+/* LOGIN */
+@media (max-width: 780px) {
+    .main-home-login{
+        padding: 10px !important;
+    }
+    .home-menu-login{
+        display: block !important;
+        min-width: 350px !important;
+        max-width: 700px !important;
+    }
+}
+.main-home-login{
+    margin: 10px auto;
+    padding: 10px 120px;
+
+    min-width: 240px;
+    max-width: 800px;
+    background-color: var(--colorWhiteLow);
+}
+.main-login{
+    background-color: var(--colorWhiteLow);
+}
+.login{
+    background-color: var(--colorWhiteLow);
+}
+.home-menu-login{
+    margin: auto;
+    min-width: 350px;
+    max-width: 940px;
+    justify-content: center;
+}
+
+.login-container {
+    font-family: Arial, Helvetica, sans-serif !important;
+    border-radius: 25px;
+    background-color: var(--colorWhite);
+    padding: 20px;
+  }
+  .login-text{
+    padding: 25px 0;
+    text-align: center;
+    margin: auto;
+  }
+  .login-text > h1{
+    margin-bottom: 25px;
+  }
+.login-text > h1, .login-text p{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+  
+  .input-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  .input-wrapper label {
+    font-family: Arial, Helvetica, sans-serif !important;
+
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper input[type="text"],
+  .input-wrapper input[type="email"],
+  .input-wrapper input[type="password"] {
+    border: 0;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #B0B0B0;
+    border-radius: 18px;
+  }
+  
+  .login-button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: larger;
+    background-color: var(--colorSecondary);
+    color: #ffffff;
+    padding: 17px 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .login-button:hover{
+    background-color: var(--colorPrimary);
+  }
+  
+  
+
 /* AUTHORS */
 
 
@@ -168,15 +258,8 @@ header{
 
     
 }
-
-@media (max-width: 780px) {
-    .main-home{
-        padding: 10px !important;
-    }
-}
-
 .home-menu-itens-authors{
-    border: 1px solid var(--colorHover);
+    border: 3px solid var(--colorPrimary);
     width: 100%;
     padding: 15px;
     display: flex;
