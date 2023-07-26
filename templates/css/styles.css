@@ -280,6 +280,10 @@ body{
     text-decoration: none;
     font-weight: bolder;
 }
+.itens-info > a{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .itens-img-authors{
     width: 160px;
     height: 160px;
